@@ -1,0 +1,37 @@
+/*
+Theme Name: 
+Theme URI: 
+Author:
+Author URI: 
+Description: 
+Version:
+License: GNU General Public License
+License URI: 
+Tags: 
+Text Domain: 
+*/
+#branding{
+	padding: 10% 0% 10% 0%;
+}
+#myTitle{
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+#site-title{
+	/*padding: 10% 1% 10% 1%;*/
+}
+#site-description h3 {
+	text-align: center;
+	/*padding: 0 0 15% 0;*/
+	color: white;
+}
+.entry-footer{
+	padding: 3% 0 6% 0;
+	}
+hr{
+	padding: 0 0 3% 0;
+}
+
+/*article {
+	background: white;
+}*/
