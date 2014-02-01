@@ -70,7 +70,7 @@
 				</div>
 			</section>
 		<?php //} ?>
-
+		<div>
 			<nav id="menu" role="navigation" class="top-bar">
 				<section class="top-bar-section">
 					<!--<div id="search">
@@ -79,5 +79,6 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu') ); ?>	
 				</section>
 			</nav>
+		</div>
 		</header>
 	<div id="container">

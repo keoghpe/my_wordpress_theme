@@ -12,17 +12,23 @@
 <script>
 $(document).ready(function(){
 
-	console.log($('#myTitle a').text().trim().length);
-	console.log($('#myTitle a').text().trim());
+	//console.log($('#myTitle a').text().trim().length);
+	//console.log($('#myTitle a').text().trim());
 	var text = $('#myTitle a').text().trim().length;
 	var width = $(window).width();
-	console.log(width/text);
+	//console.log(width/text);
 	$('#myTitle').fitText(1, { minFontSize: '20px', maxFontSize: width/text*2.7 });
 
 	$('iframe').wrapAll('<div class="flex-video" />');
 
-	$('#menu').on('scroll',function(){
-		console.log($(this).scrollTop());
+	$(window).on('scroll',function(){
+		if ($(window).scrollTop()>=451) {
+			$('nav').parent().addClass("fixed");
+			console.log('Bingo');
+		} else {
+			$('nav').parent().removeClass("fixed");
+			console.log('Bongo');
+		}	
 	});
 
 });
